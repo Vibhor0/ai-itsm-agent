@@ -236,3 +236,25 @@ and no hallucinated outputs.
 The agent predicts SLA breach risk qualitatively (Low/Medium/High) using
 severity, scope, patch impact, and recurrence signals, along with a confidence
 score and explanation to support proactive operational decisions.
+
+## User Guide
+
+1. Enter a ticket in Single Ticket mode and click Analyze
+2. Upload an Excel file for batch analysis
+3. Review classification, SLA risk, and patch impact
+4. Download CSV results for downstream ITSM workflows
+
+## Known Limitations
+
+- The solution performs functional accuracy validation, not offline ML training benchmarks
+- Multi‑turn conversational memory is intentionally not enabled
+- Cost estimates are indicative and not provider‑billed
+- Live Oracle Fusion APIs are not integrated in this MVP
+
+## Data Sources & Assumptions
+
+- Ticket inputs are assumed to originate from ITSM systems such as ServiceNow
+- Oracle documentation used via RAG includes Fusion Readiness and What’s New guides
+- SLA definitions and thresholds are assumed to follow standard enterprise ITSM practices
+
+
