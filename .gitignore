@@ -1,0 +1,6 @@
+# --- Python runtime artifacts (appear automatically later) ---
+__pycache__/
+*.pyc
+
+# --- Local exports / generated outputs ---
+*.csv

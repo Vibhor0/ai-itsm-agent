@@ -1,0 +1,113 @@
+1. After the recent Oracle Fusion 26A quarterly update, multiple employees across regions
+are reporting that their payslips are not available for download. The payroll run
+completed successfully, but payslip PDFs are missing from Employee Self Service.
+This is causing delays in salary confirmations and compliance reporting.
+
+previous response-
+{"is_recurring_issue":true,"module":"Payroll","patch_impacted_modules":{"Payroll":"Primary impact - payslip PDF generation broken","HCM":"Secondary impact - Employee Self Service affected","Reporting":"Tertiary impact - compliance reporting delays"},"priority":"P1","resolver_group":"Payroll Support Team","severity":"Critical","similar_ticket_count":15,"sla_breach_reason":"Critical severity issue affecting multiple employees across regions with compliance impact, likely requiring complex patch-related troubleshooting","sla_breach_risk":"High","sla_confidence":0.85,"ticket_type":"Incident"}
+
+new response-
+{"is_recurring_issue":false,"module":"Payroll","patch_impacted_modules":{"Payroll":"Primary impact - payslip PDF generation failure post-26A update","HCM":"Secondary impact - Employee Self Service payslip download unavailable","Document Management":"Potential impact - PDF generation and storage services affected"},"priority":"P1","resolver_group":"Oracle Fusion Payroll Team","severity":"Critical","similar_ticket_count":0,"sla_breach_reason":"Critical severity with widespread impact across multiple regions affecting payroll compliance and employee salary confirmations, compounded by patch-related complexity requiring specialized Oracle Fusion expertise","sla_breach_risk":"High","sla_confidence":0.9,"ticket_type":"Incident"}
+
+2. Since the last quarterly system update, finance users are unable to approve supplier
+invoices in Accounts Payable. Approval workflows get stuck after the manager stage
+and do not progress further. Several payments are now delayed, and vendors are
+escalating due to missed payment timelines.
+
+
+previous response-
+{"is_recurring_issue":true,"module":"Accounts Payable","patch_impacted_modules":{"Accounts_Payable":"Primary impact - approval workflows broken","Procurement":"Secondary impact - vendor payment delays","General_Ledger":"Potential impact - payment posting issues"},"priority":"P1","resolver_group":"Finance Applications Team","severity":"Critical","similar_ticket_count":8,"sla_breach_reason":"Critical severity with business process outage affecting vendor payments and potential financial penalties","sla_breach_risk":"High","sla_confidence":0.9,"ticket_type":"Incident"}
+
+new response-
+{"is_recurring_issue":false,"module":"Accounts Payable","patch_impacted_modules":{"Accounts Payable":"Primary impact - supplier invoice approval workflows stuck after manager stage","Workflow Engine":"Secondary impact - approval workflow processing failure","Procurement":"Potential impact - vendor payment processing delays affecting supplier relationships"},"priority":"P1","resolver_group":"Finance Applications Team","severity":"Critical","similar_ticket_count":0,"sla_breach_reason":"Critical severity due to business process outage affecting vendor payments and compliance, patch-related complexity requiring specialized analysis, and vendor escalations indicating urgent business impact","sla_breach_risk":"High","sla_confidence":0.9,"ticket_type":"Incident"}
+
+
+3. Purchase requisitions are getting stuck in a pending approval state for a limited
+set of users. Other users are able to submit and approve requisitions normally.
+This issue started surfacing after a system update earlier this month.
+Business impact is limited but requires investigation.
+
+previous response-
+{"is_recurring_issue":false,"module":"Procurement","patch_impacted_modules":{"Procurement":"Primary impact - requisition approval workflow affected","User Management":"Secondary impact - user-specific permissions may be involved","Workflow Engine":"Potential impact - approval routing logic"},"priority":"P3","resolver_group":"Procurement Support Team","severity":"Medium","similar_ticket_count":2,"sla_breach_reason":"Medium severity issue with limited business impact allows for standard resolution timeframe","sla_breach_risk":"Low","sla_confidence":0.8,"ticket_type":"Incident"}
+
+new response-
+{"is_recurring_issue":false,"module":"Procurement","patch_impacted_modules":{"Procurement":"Primary impact - Purchase requisitions stuck in pending approval for subset of users","Workflow Management":"Secondary impact - Approval workflow processing affected","User Management":"Potential impact - User role/permission validation issues"},"priority":"P3","resolver_group":"Procurement Support","severity":"Medium","similar_ticket_count":1,"sla_breach_reason":"Medium severity with limited user impact and patch-related complexity requiring investigation","sla_breach_risk":"Medium","sla_confidence":0.8,"ticket_type":"Incident"}
+
+4. This is the fourth ticket raised today regarding payslip download failures after
+the Fusion update. Similar tickets were raised and temporarily resolved earlier,
+but the issue keeps reoccurring. Employees continue to report missing PDFs in
+self‑service, indicating a persistent underlying problem.
+
+previous response-
+{"is_recurring_issue":true,"module":"Payroll","patch_impacted_modules":{"Payroll":"Primary impact - payslip generation and PDF download functionality","HCM":"Secondary impact - employee self-service portal","Document Management":"Potential impact - PDF generation services"},"priority":"P2","resolver_group":"Payroll Support Team","severity":"High","similar_ticket_count":4,"sla_breach_reason":"High severity recurring issue with multiple employees impacted and previous temporary fixes failing, requiring deeper investigation","sla_breach_risk":"High","sla_confidence":0.85,"ticket_type":"Problem"}
+
+new response-
+{"is_recurring_issue":true,"module":"Payroll","patch_impacted_modules":{"Payroll":"Primary impact - payslip PDF generation and download failures post-Fusion update","HCM":"Secondary impact - Employee Self Service PDF access affected","Document Management":"Potential impact - PDF generation and storage services"},"priority":"P1","resolver_group":"Payroll Support Team","severity":"Critical","similar_ticket_count":4,"sla_breach_reason":"Critical severity with recurring payroll system failure affecting multiple employees, patch-related complexity requiring deeper investigation, and pattern of temporary fixes indicating underlying systemic issue","sla_breach_risk":"High","sla_confidence":0.9,"ticket_type":"Problem"}
+
+
+5. A user is unable to reset their password and receives an invalid credentials error
+while attempting to log in. The issue appears isolated to this user, and no recent
+system updates or configuration changes are known to be related.
+
+previous response-
+{"is_recurring_issue":false,"module":"Identity Management","patch_impacted_modules":{},"priority":"P3","resolver_group":"Identity and Access Management","severity":"Medium","similar_ticket_count":1,"sla_breach_reason":"Standard password reset issue with medium complexity, typical resolution time within SLA","sla_breach_risk":"Low","sla_confidence":0.85,"ticket_type":"Incident"}
+
+new response-
+{"is_recurring_issue":false,"module":"Identity Management","patch_impacted_modules":{},"priority":"P3","resolver_group":"Identity and Access Management","severity":"Medium","similar_ticket_count":1,"sla_breach_reason":"Medium severity single-user authentication issue with standard resolution timeframe expected","sla_breach_risk":"Low","sla_confidence":0.85,"ticket_type":"Incident"}
+
+6. fdkjfdlkj!!!@@@### vnvbnvbn 989898 lkjlkj
+Some random characters were entered instead of a proper issue description.
+Unable to understand the exact request or business impact from the input.
+
+previous response-
+{"is_recurring_issue":false,"module":"General Support","patch_impacted_modules":{},"priority":"P4","resolver_group":"Service Desk","severity":"Low","similar_ticket_count":0,"sla_breach_reason":"Low priority informational ticket with unclear requirements","sla_breach_risk":"Low","sla_confidence":0.9,"ticket_type":"Request"}
+
+new response-
+{"is_recurring_issue":false,"module":"General","patch_impacted_modules":{},"priority":"P4","resolver_group":"Service Desk","severity":"Low","similar_ticket_count":0,"sla_breach_reason":"Low severity ticket with unclear requirements - standard resolution timeframe applies","sla_breach_risk":"Low","sla_confidence":0.9,"ticket_type":"Request"}
+
+7. Hello team,
+Just checking if the support desk is available today.
+No issue at the moment, just needed confirmation on working hours.
+Thanks in advance.
+
+previous response-
+{"is_recurring_issue":false,"module":"General Support","patch_impacted_modules":{},"priority":"P4","resolver_group":"Service Desk","severity":"Low","similar_ticket_count":0,"sla_breach_reason":"Low priority informational request with standard response time expectations","sla_breach_risk":"Low","sla_confidence":0.9,"ticket_type":"Request"}
+
+new response-
+{"is_recurring_issue":false,"module":"General Support","patch_impacted_modules":{},"priority":"P4","resolver_group":"Service Desk","severity":"Low","similar_ticket_count":0,"sla_breach_reason":"Low priority informational request with no business impact","sla_breach_risk":"Low","sla_confidence":0.95,"ticket_type":"Request"}
+
+8. After the quarterly Fusion update, users report that employee documents such as
+payslips and tax forms are intermittently unavailable. Sometimes documents load,
+sometimes they fail. The issue seems to impact both Payroll processing and
+Employee Self Service document access.
+
+previous response-
+{"is_recurring_issue":true,"module":"Payroll","patch_impacted_modules":{"Payroll":"Primary impact - payslip generation and access","HCM":"Employee Self Service document access affected","Document Management":"Document retrieval system experiencing intermittent failures","Employee Self Service":"User portal document access impacted"},"priority":"P1","resolver_group":"Payroll Support Team","severity":"Critical","similar_ticket_count":15,"sla_breach_reason":"Critical severity post-patch issue affecting payroll operations and employee document access requires immediate resolution within 4 hours","sla_breach_risk":"High","sla_confidence":0.85,"ticket_type":"Incident"}
+
+new response-
+{"is_recurring_issue":true,"module":"Payroll","patch_impacted_modules":{"Payroll":"Primary impact - payslips intermittently unavailable affecting payroll processing","HCM":"Secondary impact - Employee Self Service document access failures","Document Management":"Core impact - intermittent document retrieval and storage service issues"},"priority":"P1","resolver_group":"Payroll Support Team","severity":"Critical","similar_ticket_count":8,"sla_breach_reason":"Critical severity with payroll processing impact, patch-related complexity affecting multiple modules, and intermittent nature making diagnosis challenging","sla_breach_risk":"High","sla_confidence":0.9,"ticket_type":"Problem"}
+
+
+9. Finance team is unable to post journals due to unexpected validation errors
+appearing after the recent system update. This is blocking the month‑end
+financial close process, and delays could impact regulatory reporting deadlines
+if not resolved immediately.
+
+previous response-
+{"is_recurring_issue":false,"module":"General Ledger","patch_impacted_modules":{"General Ledger":"Primary impact - journal posting validation errors","Accounts Payable":"Potential impact - journal entries from AP transactions","Accounts Receivable":"Potential impact - journal entries from AR transactions","Financial Reporting":"Secondary impact - month-end close delays"},"priority":"P1","resolver_group":"Finance Systems Team","severity":"Critical","similar_ticket_count":0,"sla_breach_reason":"Critical severity issue blocking month-end financial close with regulatory reporting deadline impact requires immediate resolution within 4 hours","sla_breach_risk":"High","sla_confidence":0.9,"ticket_type":"Incident"}
+
+new response-
+{"is_recurring_issue":false,"module":"General Ledger","patch_impacted_modules":{"General Ledger":"Primary impact - journal posting validation errors blocking financial close","Financial Reporting":"Secondary impact - regulatory reporting deadlines at risk","Period Close":"Critical impact - month-end close process completely blocked"},"priority":"P1","resolver_group":"Finance Applications Team","severity":"Critical","similar_ticket_count":0,"sla_breach_reason":"Critical severity with business outage blocking month-end close and regulatory compliance risk, compounded by patch-related complexity requiring immediate resolution","sla_breach_risk":"High","sla_confidence":0.9,"ticket_type":"Incident"}
+
+
+10. Users are reporting slow system behaviour in some screens but not others.
+This started sometime after the last update, but it is not clear whether it is
+related to Payroll, Procurement, or general system performance.
+Further analysis may be required to identify the core issue.
+
+previous response-
+{"is_recurring_issue":false,"module":"System Performance","patch_impacted_modules":{"Payroll":"high","Procurement":"high","General System":"medium","Database":"medium"},"priority":"P2","resolver_group":"System Performance Team","severity":"High","similar_ticket_count":3,"sla_breach_reason":"High severity performance issue affecting multiple users with unclear root cause requiring investigation across multiple modules","sla_breach_risk":"Medium","sla_confidence":0.7,"ticket_type":"Incident"}
+
+new response-
+{"is_recurring_issue":false,"module":"System Performance","patch_impacted_modules":{"Payroll":"Potential impact - slow performance reported in some screens post-update","Procurement":"Potential impact - performance degradation affecting user workflows","System Performance":"Primary impact - general system slowness across multiple modules after update"},"priority":"P2","resolver_group":"System Performance Team","severity":"High","similar_ticket_count":1,"sla_breach_reason":"High severity performance issue affecting multiple users across different modules with patch-related timing, requiring investigation across multiple systems","sla_breach_risk":"Medium","sla_confidence":0.8,"ticket_type":"Incident"}
+
